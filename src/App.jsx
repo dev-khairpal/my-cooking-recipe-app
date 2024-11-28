@@ -8,12 +8,22 @@ import Create from "./pages/create/Create";
 import Home from "./pages/home/Home";
 import Search from "./pages/search/Search";
 import Recipe from "./pages/recipe/Recipe";
+import ThemeSelector from "./components/ThemeSelector";
+import { useEffect } from "react";
+import { useTheme } from "./hooks/useTheme";
 
 function App() {
+  const { mode } = useTheme();
+
+  useEffect(() => {
+    // Dynamically apply the class to the body tag
+    document.body.className = mode;
+  }, [mode]);
   return (
     <div>
       <BrowserRouter>
       <Navbar />
+      <ThemeSelector />
         <Switch>
           <Route exact path="/">
             <Home />

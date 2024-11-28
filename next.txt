@@ -1,0 +1,6 @@
+* As the submit is clicked do redirect to the home
+* make search bar
+* search results
+
+
+to do : 
