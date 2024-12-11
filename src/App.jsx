@@ -23,7 +23,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar />
-      <ThemeSelector />
+
         <Switch>
           <Route exact path="/">
             <Home />
