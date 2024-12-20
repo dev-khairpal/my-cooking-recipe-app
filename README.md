@@ -1,4 +1,4 @@
-##Link to the app : [My Recipe App](https://kaleidoscopic-bombolone-51392b.netlify.app/)
+#Link to the app : [My Recipe App](https://kaleidoscopic-bombolone-51392b.netlify.app/)
 
 # My Recipes App
 
